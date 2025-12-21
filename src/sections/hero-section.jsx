@@ -3,7 +3,7 @@ import CtaButton from "../components/cta-button";
 
 const HeroSection = () => {
   return (
-    <div className="py-10 flex h-full center-item">
+    <div className="py-10">
       {/* Left */}
       <div className="px-8 py-4">
         <h1 className="text-5xl clash-display text-prime-brown">
