@@ -1,9 +1,12 @@
 import React from "react";
+import HeroSection from "../sections/hero-section";
 
 const HomePage = () => {
   return (
-    <div className="py-5 bg-lime-500">
-      <div className="px-4 bg-blue-500 text-white">Any Page</div>
+    <div className="bg-zinc-50 h-full">
+      <div className=" bg-prime-white">
+        <HeroSection />
+      </div>
     </div>
   );
 };
