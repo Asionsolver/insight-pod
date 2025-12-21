@@ -1,6 +1,6 @@
-import React from "react";
 import HeroSection from "../sections/hero-section";
 import WeeklyPodcast from "../sections/weekly-podcast";
+import TopPodcast from "../sections/top-podcast";
 
 const HomePage = () => {
   return (
@@ -8,6 +8,7 @@ const HomePage = () => {
       <div className=" bg-prime-white">
         <HeroSection />
         <WeeklyPodcast />
+        <TopPodcast />
       </div>
     </div>
   );
