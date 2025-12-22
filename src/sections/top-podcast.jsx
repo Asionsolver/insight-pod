@@ -1,5 +1,6 @@
 import React from "react";
 import TopPodcasterCard from "../components/top-podcaster-card";
+import { topPodCasterData } from "../assets/assets";
 
 const TopPodcast = () => {
   return (
@@ -13,9 +14,29 @@ const TopPodcast = () => {
         {/* Cards Section */}
         <div className="my-10 w-full h-82.5 whitespace-nowrap centered-row gap-4 overflow-x-scroll lg:h-130">
           {/* Card */}
-          <TopPodcasterCard bgColor="#532822" />
-          <TopPodcasterCard bgColor="#43a574" />
-          <TopPodcasterCard bgColor="#ffd25a" />
+          {topPodCasterData.map(
+            ({
+              _id,
+              name,
+              view,
+              bgColor,
+              image,
+              imagePosition,
+              decor,
+              decorPosition,
+            }) => (
+              <TopPodcasterCard
+                key={_id}
+                name={name}
+                view={view}
+                bgColor={bgColor}
+                image={image}
+                imagePosition={imagePosition}
+                decor={decor}
+                decorPosition={decorPosition}
+              />
+            )
+          )}
         </div>
       </div>
     </div>
