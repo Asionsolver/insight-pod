@@ -6,7 +6,7 @@ const HeroSection = () => {
     <div className="py-10 bg-prime-white">
       <div className="container mx-auto lg:centered-row">
         {/* Left */}
-        <div className="px-8 lg:px-18">
+        <div className="px-8 lg:px-18 ">
           <h1 className="text-5xl clash-display text-prime-brown md:text-6xl lg:text-[94px] md:text-center lg:text-left">
             Navigating Ideas, Sharing Insights.
           </h1>
@@ -21,11 +21,11 @@ const HeroSection = () => {
           </div>
         </div>
         {/* Right */}
-        <div className="w-full h-95 mt-10 center-item lg:h-full lg:my-10 lg:mr-30 ">
+        <div className="w-full h-full mt-10 lg:mt-0  center-item lg:my-10 lg:mr-15 xl:mr-30 ">
           <img
             src={images.hero_img}
             alt="hero_img"
-            className="w-[80%] md:w-[45%] lg:w-full"
+            className="w-[80%] md:w-[45%] lg:w-full xl:w-[80%]"
           />
         </div>
       </div>

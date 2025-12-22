@@ -2,20 +2,24 @@ import { images } from "../assets/assets";
 
 const OutAdvantage = () => {
   return (
-    <div className="py-5 bg-white">
-      <div className="px-8 py-4">
+    <div className="py-5 bg-white md:mt-8 lg:my-20">
+      <div className=" px-8 py-4 col gap-5 lg:flex-row">
         {/* Left */}
-        <div className="w-full h-87.5 center-item">
-          <img src={images.unique} alt="banner-image" />
+        <div className="w-full h-full center-item lg:my-10 lg:w-1/2">
+          <img
+            src={images.unique}
+            alt="banner-image"
+            className="md:w-[70%] lg:w-[90%]"
+          />
         </div>
         {/* Right */}
-        <div className="flex-1 text-zinc-600">
+        <div className="flex-1 text-zinc-600 md:my-14">
           {/* Heading */}
-          <h2 className="text-3xl text-prime-brown clash-display m-4">
+          <h2 className="text-3xl text-prime-brown clash-display my-4 md:text-4xl lg:text-6xl">
             What makes us different from others
           </h2>
           {/* Para */}
-          <p className="mb-5">
+          <p className="mb-5 md:text-xl">
             Our commitment is to keep you comfortable by delivering quality
             podcast content, trusted sources, and useful material.
           </p>
@@ -33,7 +37,7 @@ const OutAdvantage = () => {
                   {/* Image */}
                   <img src={images.verify} alt="image" className="" />
                   {/* Details */}
-                  <span className="font-semibold">{item}</span>
+                  <span className="font-semibold md:text-xl">{item}</span>
                 </div>
               );
             })}
