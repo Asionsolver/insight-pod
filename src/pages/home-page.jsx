@@ -5,6 +5,7 @@ import Stats from "../sections/stats";
 import OutAdvantage from "../sections/our-advantage";
 import Banner from "../sections/banner";
 import Message from "../sections/message";
+import Footer from "../sections/footer";
 
 const HomePage = () => {
   return (
@@ -17,6 +18,7 @@ const HomePage = () => {
         <OutAdvantage />
         <Banner />
         <Message />
+        <Footer />
       </div>
     </div>
   );
