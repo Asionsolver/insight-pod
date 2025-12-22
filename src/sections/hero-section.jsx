@@ -16,7 +16,7 @@ const HeroSection = () => {
             that cater to your interests and needs.
           </div>
           {/* Cta Button */}
-          <div className="centered-row md:justify-center">
+          <div className="centered-row md:justify-center lg:justify-start ">
             <CtaButton />
           </div>
         </div>

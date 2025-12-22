@@ -3,9 +3,9 @@ import { images } from "../assets/assets";
 const NavBar = () => {
   return (
     <div className="py-5 bg-prime-white text-prime-brown">
-      <div className="px-4 centered-row justify-between">
+      <div className="px-4 centered-row justify-between container mx-auto">
         {/* Logo */}
-        <div className="">
+        <div className="cursor-pointer hover:-translate-y-1 transition-all duration-300 ease-out">
           <img src={images.logo} alt="logo" className="" />
         </div>
         {/* Links: In Desktop Only */}

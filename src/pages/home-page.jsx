@@ -10,15 +10,17 @@ import Footer from "../sections/footer";
 const HomePage = () => {
   return (
     <div className="bg-zinc-50 ">
-      <div className=" bg-prime-white">
+      <div className=" bg-white">
         <HeroSection />
-        <WeeklyPodcast />
-        <TopPodcast />
-        <Stats />
-        <OutAdvantage />
-        <Banner />
-        <Message />
-        <Footer />
+        <div className="container mx-auto">
+          <WeeklyPodcast />
+          <TopPodcast />
+          <Stats />
+          <OutAdvantage />
+          <Banner />
+          <Message />
+          <Footer />
+        </div>
       </div>
     </div>
   );
