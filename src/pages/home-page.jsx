@@ -4,6 +4,7 @@ import TopPodcast from "../sections/top-podcast";
 import Stats from "../sections/stats";
 import OutAdvantage from "../sections/our-advantage";
 import Banner from "../sections/banner";
+import Message from "../sections/message";
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
         <Stats />
         <OutAdvantage />
         <Banner />
+        <Message />
       </div>
     </div>
   );
