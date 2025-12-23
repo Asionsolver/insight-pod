@@ -9,7 +9,7 @@ import Footer from "../sections/footer";
 
 const HomePage = () => {
   return (
-    <div className="bg-zinc-50 ">
+    <div className="bg-zinc-50 pt-18">
       <div className=" bg-white">
         <HeroSection />
         <div className="container mx-auto">

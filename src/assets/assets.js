@@ -64,7 +64,7 @@ const topPodCasterData = [
       "scale-130 h-[80%] md:h-full md:w-full md:scale-100 bottom-0 -right-3 md:-right-14 z-15",
     bgColor: "#FF854B",
     decor: images.d_1,
-    decorPosition: " bottom-2 left-15 lg:left-12 lg:bottom-8",
+    decorPosition: "md:w-[70%] bottom-2 left-15 lg:left-12 lg:bottom-8",
   },
   {
     _id: "002",
@@ -73,9 +73,9 @@ const topPodCasterData = [
     bgColor: "#532822",
     image: images.week_02,
     imagePosition:
-      "scale-130 h-[80%] md:h-full md:w-full md:scale-100 bottom-0 right-20 top-35 md:-right-17  md:top-12 z-15",
+      "bottom-0 -right-10 top-10 md:top-15 scale-130 h-[80%] md:h-full md:w-full md:scale-100  md:-right-18 lg:top-20 lg:-right-24  z-10",
     decor: images.d_2,
-    decorPosition: "bottom-4 left-2 -rotate-45  lg:bottom-28 top-20",
+    decorPosition: "md:w-[70%] bottom-4 left-2 -rotate-45  lg:bottom-28 top-20",
   },
   {
     _id: "003",
@@ -86,7 +86,7 @@ const topPodCasterData = [
       "scale-130 h-[80%] md:h-full md:w-full md:scale-100 bottom-0 -right-15 top-22 md:-right-14",
     bgColor: "#43A574",
     decor: images.d_3,
-    decorPosition: "bottom-4 left-2 lg:left-12 lg:bottom-8",
+    decorPosition: "md:w-[70%] bottom-4 left-2 lg:left-12 lg:bottom-8",
   },
   {
     _id: "004",
@@ -94,10 +94,10 @@ const topPodCasterData = [
     view: "1.5 million streams",
     image: images.week_04,
     imagePosition:
-      "scale-130 h-[80%] md:h-full md:w-full md:scale-100 bottom-0 -right-25 z-15",
+      "scale-130 h-[80%] md:h-full md:w-full md:scale-100 bottom-0 -right-25 z-15 md:top-20 ",
     bgColor: "#FFD25A",
     decor: images.d_4,
-    decorPosition: "bottom-4 left-2 lg:left-12 lg:bottom-8",
+    decorPosition: "md:w-[50%] bottom-15 left-15 lg:left-17 lg:bottom-18",
   },
 ];
 
@@ -127,7 +127,7 @@ const weeklyPodcastData = [
     image: images.avatar_01,
   },
   {
-    _id: "002",
+    _id: "004",
     title: "Sports Games",
     author: "Jane Rober",
     time: "19:45",
